@@ -16,7 +16,8 @@ namespace KID
     public string parRun = "跑步開關";
     [Header("動畫參數：跳躍")]
     public string parJump = "跳躍觸發";
-
+    [Header("動畫參數：死亡")]
+    public string parDead = "死亡開關";
 
     private Rigidbody2D rig;
     private Animator ani;
